@@ -12,6 +12,8 @@ ConnectaTel, una empresa de telecomunicaciones con operaciones en México y Colo
 -¿Qué patrones pueden ayudar a diseñar mejores planes, optimizar la oferta y mejorar la satisfacción del cliente?
 
 
+
+
 ⚠️ **Problemas detectados en los datos** 
 
 En la columna `age`con un conteo de 4000 registros se identificó que la edad promedio era de 33 años; sin embargo, se pudieron detectar valores inválidos ya que el mínimo registrado era un número negativo afectando los datos estadísticos e incluso, se visualizó una desviación estándar de 123 (dato imposible hablando de edades) y una mediana de 47 (dicho sesgo a consecuencia de los sentinels en la columna). Como método de limpieza se reemplazó el sentinel -999 con la mediana.
@@ -24,7 +26,9 @@ Se identificaron valores faltantes en las columnas `duration`(55.19%) y `length`
 📌Se encontraron valores faltantes en otras columnas tales como: City (11.72%), Churn_date (88.35%) y Date (0.12%). Se manejaron los datos en etapa de limpieza sin embargo no representan importancia para nuestro análisis y evaluación de preguntas del negocio.
 
 
-🔍 **Segmentos por Edad**
+
+
+## 🔍 **Segmentos por Edad** ##
 
 El comportamiento de mercado en ConnectaTel es bastante contundente y se encuentra bien definido. Su `mercado objetivo` son las personas que oscilan entre los `30 y 59 años de edad` representando el `50.45%`. Se debe analizar a fondo si las estrategias de mercado actuales son las que están captando este mercado en específico o simplemente es un comportamiento orgánico; una vez que se tenga identificado lo anterior, se recomienda lo siguiente:
 
