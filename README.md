@@ -55,7 +55,9 @@ Contamos con información adicional como lo es que los tres segmentos prefieren 
 
 
 
-📊 **Segmentos por Nivel de Uso**
+
+
+## 📊 **Segmentos por Nivel de Uso** ##
 
 En todos y cada uno de los niveles de uso, la edad predominante son los Adultos. Sin embargo, un aspecto importante a recalcar es que el `55.20%` de los `heavy users` pertenecen a dicho segmento. Nuevamente se comprueba que los outliers detectados en etapa tempranas del análisis se trataban de registros reales y esenciales. 
 
