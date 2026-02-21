@@ -11,4 +11,6 @@ ConnectaTel, una empresa de telecomunicaciones con operaciones en México y Colo
 
 -¿Qué patrones pueden ayudar a diseñar mejores planes, optimizar la oferta y mejorar la satisfacción del cliente?
 
-
+<p align="center">
+  <img src="screenshots/Edades_por_plan.png" width="800">
+</p>
